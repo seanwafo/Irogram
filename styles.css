@@ -1,0 +1,165 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5,h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f
+}
+/* class selector */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff
+}
+
+/* Navbar section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 1% 5% 0;
+}
+
+.iphone-dog {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width:1020px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.features-box {
+  padding: 6%;
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-h2 {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action section */
+
+.cta-h3 {
+  padding: 0 10% 0 10%;
+}
+
+/* Footer section */
+#footer {
+  background-color: #fff;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
